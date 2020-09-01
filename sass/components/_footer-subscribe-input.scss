@@ -1,0 +1,52 @@
+.subscribe-info {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white-color;
+  margin-bottom: 20px;
+}
+
+.join-footer {
+  display: flex;
+
+  .footer-input {
+    margin-right: 13px;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    background: $background-footer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
+}
+
+.btn-subscribe {
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background: $accent-text-color;
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: $white-color;
+  cursor: pointer;
+
+  .icon-send {
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+}
+
+

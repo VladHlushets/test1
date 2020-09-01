@@ -1,0 +1,41 @@
+.default-section-aboutus {
+  padding-top: 94px;
+  padding-bottom: 0;
+
+  .about-us {
+    display: flex;
+
+    .about-us-item:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
+
+.section-headlines {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+
+  .title-label {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $secondary-text-color;
+  }
+}
+
+.about-us-item_img {
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $background-color;
+  margin-bottom: 25px;
+  padding: 25px 0;
+}

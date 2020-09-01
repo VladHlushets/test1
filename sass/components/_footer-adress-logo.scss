@@ -1,0 +1,42 @@
+.footer {
+  padding: 60px 0 60px 214px;
+  display: flex;
+  background: $background-footer;
+
+  .information-link {
+    font-style: normal;
+  }
+
+  .contacts-item {
+    margin-bottom: 9px;
+  }
+}
+
+.adress-container {
+  margin-right: 69px;
+
+  .logo-footer {
+    display: inline-block;
+    margin: 0 0 20px 0;
+  }
+
+  .logo-white {
+    color: $white-color;
+  }
+}
+
+.contacts-list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: $white-color;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+}

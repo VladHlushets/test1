@@ -9,7 +9,6 @@
 .menu-link,
 .contacts-link {
   position: relative;
-  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -27,17 +26,23 @@
   &:focus {
     color: $accent-text-color;
   }
+
+  &:hover::after {
+    opacity: 1;
+  }
+
+  &:hover .contact-icon {
+    fill: $accent-text-color;
+  }
 }
 
 .contact-icon {
   fill: $contact-color;
   margin-right: 10px;
   vertical-align: middle;
-
-  &:hover .contact-icon {
-    fill: $accent-text-color;
-  }
 }
+
+
 
 .menu-link::after {
   content: '';
@@ -50,11 +55,6 @@
   border-radius: 2px;
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &::after,
-  &:focus::after {
-    opacity: 1;
-  }
 }
 
 .link .mail {

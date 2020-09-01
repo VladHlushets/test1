@@ -1,31 +1,31 @@
 .page-header {
-    border-bottom: 1px solid #ececec;
-    padding-top: 24px;
-    padding-bottom: 25px;
-  }
-  
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   .flexbox {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
-  .navigation {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo {
-    margin-right: 85px;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.192;
-    color: $primary-text-color;
-  }
-  
-  .web-logo {
-    color: $accent-text-color;
-  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 85px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  color: $primary-text-color;
+}
+
+.web-logo {
+  color: $accent-text-color;
+}
